@@ -43,7 +43,7 @@ class PocketLotto extends PluginBase {
         }
 
         # Plugin setup should be complete by now, it's time to start the lottery timer.
-        $this->lottoTask = $this->getServer()->getScheduler()->scheduleRepeatingTask(new LottoTask($this), 20);
+        $this->lottoTask = $this->getScheduler()->scheduleRepeatingTask(new LottoTask($this), 20);
 
         $this->getServer()->getCommandMap()->register('lotto', new LottoCommand($this));
     }
