@@ -1,6 +1,5 @@
 <?php
 
-
 namespace ProjectInfinity\PocketLotto;
 
 use pocketmine\plugin\PluginBase;
