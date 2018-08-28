@@ -1,7 +1,7 @@
 # PocketLotto
 
 A lottery plugin for PocketMine with support for PocketVote, Economy2 and EconomyAPI!
-
+Edited By: ModdingTwins
 
 Features
 --------
